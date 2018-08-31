@@ -6,6 +6,12 @@ from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.shortcuts import get_object_or_404
 
+class PresentView(View):
+    
+    def get(self, request):
+        template_name = "presentacion.html"
+        return render(request, template_name)
+
 class HomeView(View):
 
     def get(self, request):
