@@ -11,6 +11,17 @@ button{
     opacity:0;
 }
 
+.aside{
+    text-decoration: none;
+    background-color: transparent;
+    color:black;
+}
+.aside:hover{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}
+
 .visible{
     opacity:1;
 }
