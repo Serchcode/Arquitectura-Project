@@ -17,9 +17,9 @@ button{
     color:black;
 }
 .aside:hover{
-    text-decoration: none;
-    background-color: black;
-    color:white;
+    color:black;
+    text-decoration: underline;
+    background-color: transparent;
 }
 
 .visible{
@@ -46,8 +46,8 @@ button{
 }
 
 .boton {
-    padding-top: 2%;
-    padding-right: 95%;
+    padding-bottom: 5%;
+    
 }
 @media only screen and (min-width:992px)
 {
@@ -125,3 +125,33 @@ button{
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
   }
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+li.dropdown:hover > .dropdown-menu > a:hover {
+    color:black;
+    text-decoration: underline;
+    background-color: transparent;
+}

@@ -1,13 +1,35 @@
 {%extends "pages.html"%}
 {%block content%}
-<div class="container logo animated zoomIn">
-        <h5>ARQUITECTURAPROJECT</h5>
-</div>
 <div class="container boton animated zoomIn">
-<a href="{%url 'main:Home'%}">
-        <button type="button" class="btn btn-outline-dark btn-circle btn-xl"><i class="fa fa-arrow-left"></i>
-        </button>
-</a>
+<div class="row">
+                <div class="col col-lg-12 d-flex justify-content-center">
+                <nav class="navbar navbar-expand-lg navbar-light color animated zoomIn">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>    
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item dropdown" >
+                                    <a class="nav-link" id="navbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">ESTUDIO</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown0">
+                                        <a class="dropdown-item" href="{%url 'main:Nosotros'%}">Nosotros</a>
+                                        <a class="dropdown-item" href="{%url 'main:Contacto'%}">Contacto</a>
+                                    </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        BIENES RAICES
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{%url 'main:Desarrollos'%}">Desarrollos</a>
+                                        <a class="dropdown-item" href="{%url 'main:Preventa'%}">Preventa e inversion</a>
+                                    </div>
+                                    </li>
+                                </ul>
+                                </div>
+                        </nav>
+</div>
+</div>
 </div>
 <div class="container">
                 <div class="row">
