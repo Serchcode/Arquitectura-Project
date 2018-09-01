@@ -6,7 +6,9 @@ button{
     padding-top: 10%;
 
 }
-
+div.contact {
+    text-align: left;
+}
 .hidden{
     opacity:0;
 }
