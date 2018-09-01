@@ -2,10 +2,23 @@
     font-family: 'Mandali', serif;
 }
 
-button{
-    padding-top: 10%;
-
+#envio{
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
 }
+.redes{
+    text-decoration: none;
+    color: black;
+}
+
+.redes:hover{
+    text-decoration: underline;
+    color: black;
+}
+
 div.contact {
     text-align: left;
 }
@@ -156,4 +169,9 @@ li.dropdown:hover > .dropdown-menu > a:hover {
     color:black;
     text-decoration: underline;
     background-color: transparent;
+}
+
+.form-control {
+    border: 1px solid gray;
+    border-radius: 0;
 }
