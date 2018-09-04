@@ -2,7 +2,7 @@
 {%block content%}
 <div class="container boton animated zoomIn">
 <div class="row">
-        <div class="col col-lg-12 d-flex justify-content-center">
+        <div class="col col-lg-12 col-md-12 col-sm-12 webnav">
         <nav class="navbar navbar-expand-lg navbar-light color animated zoomIn">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,22 +31,23 @@
 </div>
 </div>
 </div>
+
 <div class="container">
                 <div class="row">
-                        <div class="col col-lg-2 animated zoomIn">
+                        <div class="col col-lg-2 col-md-8 col-m12 animated zoomIn">
                                 <h4>Estudio</h4>
                                 <a class="aside" href="{%url 'main:Nosotros'%}">Nosotros</a>
                                 <br>
                                 <a class="aside" href="{%url 'main:Contacto'%}">Contacto</a>
                         </div>
-                        <div class=" col col-lg-8 animated zoomIn ">
+                        <div class=" col col-lg-8 col-md-12 animated zoomIn ">
                                 <center>
                                         <h1>Contacto</h1>
                                 </center>
                         </div>
                 </div>
                 <div class="row">
-                                <div class=" col col-lg-8 animated zoomIn ">
+                                <div class="col col-lg-8 col-md-9 col-sm-12 animated zoomIn ">
                                         <div class="d-flex flex-column align-items-end">
                                         <p>7751344187</p>
                                         <br>
@@ -60,33 +61,35 @@
                                 </div>
                         </div>
                 <div class="row animated zoomIn">
-                        <div class="col col-lg-8 offset-lg-4">
+                        <div class="col col-lg-8 offset-lg-4 col-md-10 offset-md-1">
                                 <p>contacto@arquitecturaproject.com</p>
                         </div>
-                        <div class="col col-lg-6 offset-lg-3">
-                        <div class="form-group row">
-                                <label for="example-text-input" class="col-2 col-form-label">Nombre</label>
-                                        <div class="col-10">
-                                                <input class="form-control" type="text"  id="example-text-input">
-                                        </div>
-                        </div>
-                        <div class="form-group row">
-                                        <label for="example-email-input" class="col-2 col-form-label">Email</label>
-                                        <div class="col-10">
-                                          <input class="form-control" type="email"  id="example-email-input">
-                                        </div>
-                        </div>
-                        <div class="form-group row">
-                                <label for="example-text-input" class="col-2 col-form-label">Mesaje</label>
-                                <div class="col-10">
-                                        <textarea class="form-control" id="exampleTextarea" id="example-text-input"></textarea>
-                                </div>
-                        </div>
-                                <div class="col col-lg-10 offset-lg-10 ">
-                                        <button type="submit" id="envio">enviar</button>
-                                </div>
-                                <br>
-                        </div>
+                </div>
+                <div class="row animated zoomIn">
+                                <div class="col col-lg-6 offset-lg-3 col-md-9 offset-md-1 col-sm-12">
+                                                <div class="form-group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">Nombre</label>
+                                                                <div class="col-10">
+                                                                        <input class="form-control" type="text"  id="example-text-input">
+                                                                </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                                <label for="example-email-input" class="col-2 col-form-label">Email</label>
+                                                                <div class="col-10">
+                                                                  <input class="form-control" type="email"  id="example-email-input">
+                                                                </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                        <label for="example-text-input" class="col-2 col-form-label">Mesaje</label>
+                                                        <div class="col-10">
+                                                                <textarea class="form-control" id="exampleTextarea" id="example-text-input"></textarea>
+                                                        </div>
+                                                </div>
+                                                        <div class="col col-lg-10 offset-lg-10 col-md-10 offset-md-10 col-sm-4">
+                                                                <button type="submit" id="envio">enviar</button>
+                                                        </div>
+                                                        <br>
+                                                </div>
                 </div>
         </div>
 {%endblock content%}

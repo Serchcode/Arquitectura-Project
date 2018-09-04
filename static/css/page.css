@@ -2,6 +2,21 @@
     font-family: 'Mandali', serif;
 }
 
+.webnav{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:992px)
+{
+    .webnav{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+
+
 #envio{
     border: 1px solid gray;
     background-color: white;
