@@ -1,1 +1,1 @@
-web: gunicorn arquitectura.wsgi
+web: gunicorn arquitectura.wsgi --log-file -
