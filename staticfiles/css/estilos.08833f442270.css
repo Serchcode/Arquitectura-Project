@@ -1,0 +1,54 @@
+*,article,nav,p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+article{
+    padding-top: 10%;
+}
+@media only screen and (max-width:992px) {
+    #hide{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 10rem;
+}
+
+.color{
+    background-color: white;
+}
+ .navbar{
+     padding-left: 23%;
+ }
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+li.dropdown:hover > .dropdown-menu > a:hover {
+    color:black;
+    text-decoration: underline;
+    background-color: transparent;
+}
